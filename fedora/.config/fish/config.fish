@@ -5,7 +5,7 @@
 #
 
 # Set
-set fish_greeting
+function fish_greeting; end
 
 if status is-interactive
     fastfetch -c ~/.config/fastfetch/small.jsonc
