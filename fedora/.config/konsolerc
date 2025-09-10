@@ -1,0 +1,16 @@
+[Desktop Entry]
+DefaultProfile=Rei_Tohsaka.profile
+
+[General]
+ConfigVersion=1
+
+[KonsoleWindow]
+RememberWindowSize=false
+ShowWindowTitleOnTitleBar=true
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Enabled
+
+[UiSettings]
+ColorScheme=
