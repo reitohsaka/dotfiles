@@ -8,7 +8,7 @@
 set fish_greeting
 
 if status is-interactive
-    figlet -ctf ~/.extras/figlet-fonts/Doom.flf "@_REITOHSAKA_@" | lolcat
+    fastfetch -c ~/.config/fastfetch/small.jsonc
 end
 
 # Starship
