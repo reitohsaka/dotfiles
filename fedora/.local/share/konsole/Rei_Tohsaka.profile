@@ -6,6 +6,7 @@ CursorShape=1
 
 [General]
 AlternatingBars=0
+Command=/bin/fish --private
 ErrorBars=0
 Name=Rei_Tohsaka
 Parent=FALLBACK/
