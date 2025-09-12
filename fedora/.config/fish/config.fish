@@ -11,5 +11,18 @@ if status is-interactive
     fastfetch -c ~/.config/fastfetch/small.jsonc
 end
 
+# Aliases
+alias .. 'cd ..'
+alias ... 'cd ../..'
+alias .... 'cd ../../..'
+alias ..... 'cd ../../../..'
+alias mkdir 'mkdir -pv'
+alias cp 'cp -v'
+alias mv 'mv -v'
+alias rm 'rm -iv'
+alias rmdir 'rm -Irv'
+
+alias lg lazygit
+
 # Starship
 starship init fish | source
