@@ -19,57 +19,57 @@ $line_break\
 $character
 """
 
-palette = "reitohsaka"
+palette = 'reitohsaka'
 
 [palettes.reitohsaka]
-blue = "#1D99F3"
-green = "#11D116"
-red = "#ED1515"
-white = "#FCFCFC"
-rei = "#FE8686"
-fedora = "#51A2DA"
+blue = '#1D99F3'
+green = '#11D116'
+red = '#ED1515'
+white = '#FCFCFC'
+rei = '#FE8686'
+fedora = '#51A2DA'
 
 [character]
-success_symbol = "╰⎯"
-error_symbol = "╰⎯"
+success_symbol = '╰⎯'
+error_symbol = '╰⎯'
 
 [directory]
 truncation_length = 0
-truncation_symbol = "…/"
-home_symbol = "~"
-style = "bold rei"
-read_only_style = "bold red"
-read_only = "  "
-format = "[||](bold white) [$path]($style)[$read_only]($read_only_style) "
+truncation_symbol = '…/'
+home_symbol = '~'
+style = 'bold rei'
+read_only_style = 'bold red'
+read_only = '  '
+format = '[||](bold white) [$path]($style)[$read_only]($read_only_style) '
 
 [env_var]
 disabled = false
-variable = "SHELL"
-symbol = "╭╴"
-format = "$symbol"
+variable = 'SHELL'
+symbol = '╭╴'
+format = '$symbol'
 
 [git_branch]
-style = "bold blue"
-format = "[||](bold white) [$symbol$branch(:$remote_branch)]($style) "
+style = 'bold blue'
+format = '[||](bold white) [$symbol$branch(:$remote_branch)]($style) '
 
 [git_status]
-style = "bold rei"
+style = 'bold rei'
 
 [hostname]
 disabled = false
 ssh_only = false
-style = "bold rei"
-format = "[||](bold white) [$hostname]($style) "
+style = 'bold rei'
+format = '[||](bold white) [$hostname]($style) '
 
 [os]
 disabled = false
-format = "[$symbol](bold fedora) "
+format = '[$symbol](bold fedora) '
 
 [os.symbols]
-Fedora = ""
+Fedora = ''
 
 [username]
 disabled = false
 show_always = true
-style_user = "bold rei"
-format = "[||](bold white) [$user]($style) "
+style_user = 'bold rei'
+format = '[||](bold white) [$user]($style) '
