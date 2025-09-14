@@ -31,8 +31,8 @@ rei = '#FE8686'
 fedora = '#51A2DA'
 
 [character]
-success_symbol = '╰⎯'
-error_symbol = '╰⎯'
+success_symbol = '╰─'
+error_symbol = '╰─'
 
 [directory]
 truncation_length = 0
@@ -41,17 +41,17 @@ home_symbol = '~'
 style = 'bold rei'
 read_only_style = 'bold red'
 read_only = '  '
-format = '[||](bold white) [$path]($style)[$read_only]($read_only_style) '
+format = '[󰮾](bold white) [$path]($style)[$read_only]($read_only_style) '
 
 [env_var]
 disabled = false
 variable = 'SHELL'
-symbol = '╭╴'
+symbol = '╭─ '
 format = '$symbol'
 
 [git_branch]
 style = 'bold blue'
-format = '[||](bold white) [$symbol$branch(:$remote_branch)]($style) '
+format = '[󰮾](bold white) [$symbol$branch(:$remote_branch)]($style) '
 
 [git_status]
 style = 'bold rei'
@@ -60,7 +60,7 @@ style = 'bold rei'
 disabled = false
 ssh_only = false
 style = 'bold rei'
-format = '[||](bold white) [$hostname]($style) '
+format = '[󰮾](bold white) [$hostname]($style) '
 
 [os]
 disabled = false
@@ -80,4 +80,4 @@ fish_indicator = '󰈺'
 disabled = false
 show_always = true
 style_user = 'bold rei'
-format = '[||](bold white) [$user]($style) '
+format = '[󰮾](bold white) [$user]($style) '
